@@ -1,3 +1,90 @@
+// variables
+
+$notblack: #2e2e2e;
+
 body {
-    font-family: Archivo, Helvetica, sans-serif;
+    font-family: 'Archivo', Helvetica, sans-serif;
+    margin: 0;
+}
+
+// header
+
+nav {
+    height: 100vh;
+    width: 20%;
+    background-color: $notblack;
+
+    padding: 2rem;
+
+    h1 {
+        font-family: 'Azeret Mono', monospace;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+        a {
+            text-decoration: none;
+            color: white;
+
+            li {
+                padding: 1rem 0;
+                font-size: 1.5rem;
+                font-weight: 400;
+    
+            }
+    
+        }
+    
+
+    }
+}
+
+// footer
+
+#footer-hover{
+    width: 100%;
+    height: 5vh;
+
+    position: fixed;
+    bottom: 0;
+
+    background-color: blue;
+    opacity: 0;
+}
+
+footer {
+    width: 100%;
+    height: 5vh;
+
+    display: flex;
+
+    background-color: $notblack;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: -50;
+    transition: bottom 0.2s ease-in-out;
+}
+
+// main
+
+.flex {
+    display: flex;
+}
+
+main {
+    background-image: url('../img/lilypad3d.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100vh;
+    flex-grow: 1;
 }
