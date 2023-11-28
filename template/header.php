@@ -20,7 +20,7 @@
     <div class="flex">
         <nav>
             <!-- we're doing vertical navbars today!!!! yippee -->
-            <h1>kiwibox</h1>
+            <h1 class="gay">kiwibox</h1>
             <ul>
                 <a href="index.php">
                     <li>home</li>
