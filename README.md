@@ -1,6 +1,6 @@
 # my website
 
-hi did you know i have a github pages website? it's up there. ==all of it==
+hi did you know i have a github pages website? it's up there. *all of it*
 
 ## the stack
 
