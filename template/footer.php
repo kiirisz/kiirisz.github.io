@@ -1,7 +1,7 @@
     </div>
     
     <footer>
-        <div>A website by Ramiro "kiwiboy" Ángel Vega, using the wondrous technology of php.</div>
+        <div>A website by Ramiro "kiwiboy" Ángel Vega</div>
     </footer>
     <div id="footer-hover"></div>
 
