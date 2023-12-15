@@ -110,10 +110,7 @@ footer {
 }
 
 main {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    flex-grow: 1;
+    width: 80%;
 
     display: flex;
     flex-direction: column;
@@ -136,6 +133,7 @@ main {
 
             background-image: url('../img/blackgold.jpg');
             background-repeat: repeat;
+            background-size: cover;
 
             z-index: -1;
         }
@@ -144,15 +142,40 @@ main {
     }
 
     &#about {
-        background-image: url('../img/pink.jpg');
-        background-repeat: repeat;
+        .bgimage {
+            width: 100%;
+            height: 100%;
+
+            position: fixed;
+            top: 0;
+            left: 0;
+
+            background-image: url('../img/pink.jpg');
+            background-repeat: repeat;
+            background-size: cover;
+
+            z-index: -1;
+        }
+
 
         color: white;
     }
 
     &#projects {
-        background-image: url('../img/roses.jpg');
-        background-repeat: repeat;
+        .bgimage {
+            width: 100%;
+            height: 100%;
+
+            position: fixed;
+            top: 0;
+            left: 0;
+
+            background-image: url('../img/roses.jpg');
+            background-repeat: repeat;
+            background-size: cover;
+
+            z-index: -1;
+        }
 
         color: white;
     }
@@ -161,6 +184,21 @@ main {
         font-size: 3rem;
         font-weight: 400;
     }
+
+    .content {
+        text-align: center;
+        width: 80%;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+
+            &:hover {
+                color: orangered;
+            }
+        }
+    }
 }
 
 .black {
@@ -168,4 +206,11 @@ main {
     width: 100%;
     height: 100%;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: -2;
+
+    opacity: 80%;
 }
