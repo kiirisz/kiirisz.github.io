@@ -4,7 +4,7 @@ hi did you know i have a github pages website? it's up there. *all of it*
 
 ## the stack
 
-as of right now it's made of the basics (html, css, js), php (which, as it turns out, isn't supported! immediately making my life much worse) and sass (because it makes css usable)
+as of right now it's made of the basics (html, css, js) and sass (because it makes css usable)
 
 ## the goal
 
