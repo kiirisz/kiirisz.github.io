@@ -277,12 +277,10 @@ main {
         left: 0;
 
         z-index: 1;
+        font-size: 1.5vw;
+
 
         background-color: $notblack;
-
-        h1 {
-            font-size: 2rem;
-        }
 
         ul {
             display: flex;
@@ -291,14 +289,19 @@ main {
 
             width: 100%;
 
-            li {
-                font-size: 1.5rem;
+            a {
+                li {
+                    font-size: 2.5vw;
+                }
+
             }
         }
     }
 
     main {
         width: 90%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         height: 100vh;
         margin: auto;
 
