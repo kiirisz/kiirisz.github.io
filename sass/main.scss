@@ -2,6 +2,7 @@
 
 $notblack: #1a1a1a;
 $notblacker: #0a0a0a;
+$getmagentad: #ff0077;
 
 body {
     font-family: 'Archivo', Helvetica, sans-serif;
@@ -36,7 +37,7 @@ nav {
         padding: 2rem;
 
         &:hover {
-            color: orangered;
+            color: $getmagentad;
         }
     }
 
@@ -195,7 +196,7 @@ main {
             font-weight: 600;
 
             &:hover {
-                color: orangered;
+                color: $getmagentad;
             }
         }
     }
@@ -213,4 +214,45 @@ main {
     z-index: -2;
 
     opacity: 80%;
+}
+
+// projects
+
+#projects {
+    padding: 2rem;
+}
+
+.project {
+    width: 100%;
+
+    &:hover {
+        h3 {
+            color: $getmagentad;
+
+            &::before {
+                content: "> ";
+            }
+
+            &#kiwiproject::after {
+                content: ", on github";
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 400;
+        color: white;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
 }

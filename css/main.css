@@ -25,7 +25,7 @@ nav h1 {
   padding: 2rem;
 }
 nav h1:hover {
-  color: orangered;
+  color: #ff0077;
 }
 nav ul {
   list-style: none;
@@ -141,7 +141,7 @@ main .content a {
   font-weight: 600;
 }
 main .content a:hover {
-  color: orangered;
+  color: #ff0077;
 }
 
 .black {
@@ -153,6 +153,36 @@ main .content a:hover {
   left: 0;
   z-index: -2;
   opacity: 80%;
+}
+
+#projects {
+  padding: 2rem;
+}
+
+.project {
+  width: 100%;
+}
+.project:hover h3 {
+  color: #ff0077;
+}
+.project:hover h3::before {
+  content: "> ";
+}
+.project:hover h3#kiwiproject::after {
+  content: ", on github";
+}
+.project a {
+  text-decoration: none;
+  color: white;
+}
+.project h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+}
+.project p {
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=main.css.map */
